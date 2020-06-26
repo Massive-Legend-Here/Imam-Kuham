@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/gumb_fridge"
+        android:layout_width="276dp"
+        android:layout_height="375dp"
+        android:background="@android:color/transparent"
+        android:onClick="Fridge_click"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17000002"
+
+        app:srcCompat="@drawable/ic_ikona_frizider" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Klikni za odabir namirnica!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gumb_fridge"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/gumb_omiljeni"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/transparent"
+        android:onClick="Omiljeni_click"
+        android:padding="11dp"
+        android:paddingLeft="12dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gumb_povijest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gumb_fridge"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_ikona_favoriti" />
+    <!--android:background="@drawable/okrugli_gumb_sivi"-->
+
+    <ImageButton
+        android:id="@+id/gumb_povijest"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/transparent"
+        android:onClick="povijest_click"
+        android:padding="11dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gumb_postavke"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gumb_omiljeni"
+        app:layout_constraintTop_toBottomOf="@+id/gumb_fridge"
+        app:layout_constraintVertical_bias="0.992"
+        app:srcCompat="@drawable/ic_ikona_povijest" />
+
+    <ImageButton
+        android:id="@+id/gumb_postavke"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/transparent"
+        android:onClick="Postavke_click"
+        android:padding="11dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gumb_povijest"
+        app:layout_constraintTop_toBottomOf="@+id/gumb_fridge"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_ikona_postavke" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

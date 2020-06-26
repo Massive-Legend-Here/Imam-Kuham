@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Imam-Kuham</string>
+
+    <string-array name="Jezik">
+        <item>Hrvatski</item>
+        <item>English</item>
+        <item>Deutsch</item>
+    </string-array>
+
+    <string name="recept1_korak_1">
+        <b>Glavicu luka narezati na sitno, zagrijati tavu te prepržiti sa 3 žlice ulja na laganoj vatri.</b> \n\n
+        <b>Luk ne smije potamniti, ali mora postati staklasti. Mrkvu nasjeckati na sitne kvadratiće te dodati na luk.</b> \n\n
+        <b>Pirjajte zajedno s lukom u koji zatim dodate 0.5 dcl vode, te pustite da kuha na laganoj vatri.</b> \n\n
+        <b>Pustite da se kuha do kada je mrkva polugotova.</b>
+    </string>
+
+    <string name="recept1_korak_2">
+        <b>Kada je mrkva polugotova dodaje se piletina izrezana na kockice, lovorov list vegeta i crvena paprika.</b> \n\n
+        <b>Poklopite lonac i pustite da se sve pirja dok meso ne omekša, povremeno se mora promiješati da ne zagori te po potrebi dodati i vode (ukoliko tekićina ispari).</b> \n\n
+        <b>Kada je meso gotovo doda se grašak, sve se zajedno pomiješa, pokrije i čeka da zakipi. Vode dodati ukoliko je premalo.</b>
+    </string>
+
+    <string name="recept1_korak_3">
+        <b>Kada zakipi posipa se sa žlicom oštrog brašna i lagano miješa. Kad je brašno pomiješano dodajemo jos 0.5 dcl  vode i ponovo promiješamo.</b>\n\n
+        <b>Ako je pregusto dodamo još vode. Kad to zakipi maknemo sa vatre, popaprimo, posolimo i dodamo sitni kosani zeleni peršin.</b>\n\n
+        <b>Uz to serviramo krumpir pire ili rižu, te zelenu salatu</b>
+
+    </string>
+
+    <string name="recept2_korak_1">
+        <b>Prije kuhanja operite povrće. Luk isjeckajte na sitne kockice i prepržite na ulju dok ne postane staklast. </b> \n\n
+        <b>Dodajte nasjeckanu mrkvu i celer isjeckanu na kockice ili kolutiće. Dodajte kropmpir i mješajee bez prestanka. </b> \n\n
+        <b>U lonac zatim dodajte narezani kelj i sve zajedno malo popržite uz miiješanje. </b> \n\n
+    </string>
+
+    <string name="recept2_korak_2">
+        <b>Prelijte povrće sa vodom dok ga ne prekrije i kuhajte oko 20 minuta. </b> \n\n
+        <b>Zatim dodajte sol i papar po izboru te nasjeckani peršinov list.</b> \n\n
+        <b>Ostavite da kuha još 10 minuta (krumpir treba omekšati)</b>
+    </string>
+
+    <string name="recept2_korak_3">
+        <b>Kada zakipi posipa se sa žlicom oštrog brašna i lagano miješa. Kad je brašno pomiješano dodajemo jos 0.5 dcl  vode i ponovo promiješamo.</b>\n\n
+        <b>Ako je pregusto dodamo još vode. Kad to zakipi maknemo sa vatre.</b>\n\n
+        <b>Izbjegavajte ponovno podgrijavanje variva.</b>
+
+    </string>
+
+    <string name="recept3_korak_1">
+        <b>Pripremite 4 veće ili 8 manjih šnicli. Šnicle na naglo ispecite na grill tavi koju prethodno nauljite.  </b> \n\n
+        <b>Ostavite ih sa strane. </b> \n\n
+        <b>U tavu u kojoj je ostalo masnoće i soka od šnicli pripremite šug.</b> \n\n
+    </string>
+
+    <string name="recept3_korak_2">
+        <b>6 narezanih suhih šljiva pustite da odstoji u 2dcl bijelog vina. </b> \n\n
+        <b>Nakon što su se šljive marinirale 20ak minuta stavite ih u grill tavu i dodajte prstohvat kumina, papar i 1 žlicu octa balsamico. </b> \n\n
+        <b>Dodajte još žlicu meda, 1 žlicu garuma, 10 ak listića kadulje , 1 žličicu timijana, 1 žličicu origana te malo sjemena rute. Ostavite da kuha još 15 minuta</b>
+    </string>
+
+    <string name="recept3_korak_3">
+        <b>Kada je kuhano zalijte prethodno ispećene šnicle.</b>\n\n
+        <b>Možete servirati uz njoke ili pire krumpir, te zelenu salatu </b>\
+    </string>
+
+
+</resources>

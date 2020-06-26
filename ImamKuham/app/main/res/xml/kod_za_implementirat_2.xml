@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:color="@color/Font"
+        android:state_pressed="true" /> <!-- pritisnut -->
+    <item
+        android:color="@color/colorPrimary"
+        android:state_focused="true" /> <!-- fokusiran -->
+    <item android:color="@color/colorPrimaryDark" /> <!-- zadana (default vrijednost) -->
+</selector>
+
+
+    <!--<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    &lt;!&ndash; pritisnut &ndash;&gt;
+    <item android:state_pressed="true"
+        android:drawable="@drawable/ic_ikona_jezik_pritisnuto" />
+    &lt;!&ndash; fokusiran &ndash;&gt;
+    <item android:state_focused="true"
+        android:drawable="@drawable/ic_ikona_jezik_fokus" />
+    &lt;!&ndash; nijedno (default) &ndash;&gt;
+    <item android:drawable="@drawable/ic_ikona_jezik" />
+    </selector>
+
+    <level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="10" android:drawable="@drawable/ic_oprez_crvena" />
+    <item android:maxLevel="20" android:drawable="@drawable/ic_narancasta" />
+    <item android:maxLevel="80" android:drawable="@drawable/ic_zuta" />
+    <item android:maxLevel="100" android:drawable="@drawable/ic_FULL_zelena" />
+    </level-list>
+
+
+    <transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/pozadina" />
+    <item android:drawable="@drawable/ic_ikona_lonac" />
+    </transition>-->
+
+

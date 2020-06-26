@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Font_preference"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Omiljeni">
+
+    <ScrollView
+        style="@style/Font_preference"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <FrameLayout
+            style="@style/Font_preference"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                style="@style/Font_preference"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="15dp"
+                android:columnCount="1"
+                android:rowCount="3">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/recept1"
+                    android:layout_width="match_parent"
+                    android:layout_height="343dp"
+                    android:layout_margin="12dp"
+                    android:onClick="recept1_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorPrimaryDark"
+                    app:cardCornerRadius="20dp">
+
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Piletina s graškom"
+                        android:textAlignment="textStart" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="83dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/slika_grasak"
+                        android:layout_width="349dp"
+                        android:layout_height="238dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="85dp"
+                        android:background="@drawable/border_rounded_slika"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/piletina_grasak" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/recept2"
+                    android:layout_width="match_parent"
+                    android:layout_height="343dp"
+                    android:layout_margin="12dp"
+                    android:layout_marginTop="3dp"
+                    android:onClick="recept2_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorPrimaryDark"
+                    app:cardCornerRadius="20dp">
+
+
+                    <TextView
+                        android:id="@+id/kelj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Varivo od kelja"
+                        android:textAlignment="textStart" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="83dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/imageedsView4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="116dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/imageedsView4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="149dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/slika_varivo"
+                        android:layout_width="349dp"
+                        android:layout_height="238dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="85dp"
+                        android:background="@drawable/border_rounded_slika"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/varivo" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/recept3"
+                    android:layout_width="match_parent"
+                    android:layout_height="343dp"
+                    android:layout_margin="12dp"
+                    android:layout_marginTop="3dp"
+                    android:onClick="recept3_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorPrimaryDark"
+                    app:cardCornerRadius="20dp">
+
+
+                    <TextView
+                        android:id="@+id/snicle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Šnicli u Šugu"
+                        android:textAlignment="textStart" />
+
+                    <ImageView
+                        android:id="@+id/imageV2iew6"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/imageV2iew5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="83dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/imageedsView4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="116dp"
+                        android:layout_marginTop="45dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_ikona_ocijena" />
+
+                    <ImageView
+                        android:id="@+id/slika_snicle"
+                        android:layout_width="349dp"
+                        android:layout_height="238dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="85dp"
+                        android:background="@drawable/border_rounded_slika"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/snicle" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </GridLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

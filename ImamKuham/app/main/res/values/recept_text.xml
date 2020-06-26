@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!---tekst dok ne  implementirmo  dohvaćanje podataka iz baze-->
+    <string name="recept1_text">
+        <b>1 veća glavica luka</b> \n
+        <b>3-4 srednje mrkve</b> \n
+        <b>500g graška</b> \n
+        <b>1 žličica crvene paprike</b> \n
+        <b>1 žličica vegete</b> \n
+        <b>2 lovorova lista</b> \n
+        <b>3 žlice ulja</b> \n
+        <b>1 žlica zelenog peršina</b> \n
+        <b>1 žlica oštrog brašna</b>\n
+        <b>Piletina</b> \n
+        <b>Papar</b> \n
+        <b>Sol</b>
+    </string>
+
+    <string name="recept2_text">
+        <b>1 srednja glavica kelja</b>\n
+        <b>3-5 mrkvi</b>\n
+        <b>Celer</b> \n
+        <b>Peršinov list</b>\n
+        <b>1 manja glavica luka</b>\n
+        <b>2-3 krumpira</b>\n
+        <b>Sol</b>\n
+        <b>Papar</b>\n
+        <b>Oštro brašno</b>\n
+        <b>Crvena paprika</b>\n
+        <b>Kobasica</b>\n
+    </string>
+
+    <string name="recept3_text">
+        <b>4 velika odreska</b>\n
+        <b>6 suhih šljiva</b>\n
+        <b>2 dcl bijelog vina</b> \n
+        <b>Papar</b>\n
+        <b>Kumin</b>\n
+        <b>Vinski ocat balsamico</b>\n
+        <b>1 žličica meda</b>\n
+        <b>1 žličica garuma</b>\n
+        <b>Kadulja</b>\n
+        <b>Timijan</b>\n
+        <b>Origano</b>\n
+    </string>
+
+
+</resources>

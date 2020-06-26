@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Font_preference"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:fitsSystemWindows="true"
+        android:onClick="Float_click"
+        android:padding="2dp"
+        android:paddingTop="4dp"
+        android:scaleType="fitCenter"
+        android:verticalScrollbarPosition="right"
+        app:fabCustomSize="70dp"
+        app:fabSize="normal"
+        app:maxImageSize="47dp"
+        app:srcCompat="@drawable/ic_ikona_zdjela" />
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/Font_preference"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+
+        <FrameLayout
+            style="@style/Font_preference"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                style="@style/Font_preference"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="15dp"
+                android:columnCount="3"
+                android:rowCount="4">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cesnjak"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Cesnjak_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_cesnjak"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_cesnjak" />
+
+                    <TextView
+                        android:id="@+id/text_cesnjak"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Češnjak"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/dzem"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Dzem_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_dzem"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_dzem" />
+
+                    <TextView
+                        android:id="@+id/text_dzem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Džem"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/grasak"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Grasak_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_grasak"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_grasak" />
+
+                    <TextView
+                        android:id="@+id/text_grasak"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Grašak"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/jaje"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Jaje_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_jaje"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_jaje" />
+
+                    <TextView
+                        android:id="@+id/text_jaje"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Jaje"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/jogurt"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Jogurt_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_jogurt"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_jogurt" />
+
+                    <TextView
+                        android:id="@+id/text_jogurt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Jogurt"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/kecap"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Kecap_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_kecap"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_kecap" />
+
+                    <TextView
+                        android:id="@+id/text_kecap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Kečap"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/kokosh"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Kokosh_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_kokosh"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_kokosh" />
+
+                    <TextView
+                        android:id="@+id/text_kokosh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Piletina"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/krastavac"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Krastavac_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_krastavac"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_krastavac" />
+
+                    <TextView
+                        android:id="@+id/text_krastavac"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Krastavci"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/krava"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Krava_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_krava"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_krava" />
+
+                    <TextView
+                        android:id="@+id/text_krava"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Govedina"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/kruh"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Kruh_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_kruh"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_kruh" />
+
+                    <TextView
+                        android:id="@+id/text_kruh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Kruh"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/krumpir"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Krumpir_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_krumpir"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_krumpir" />
+
+                    <TextView
+                        android:id="@+id/text_krumpir"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Krumpir"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/luk"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Luk_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_luk"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_luk" />
+
+                    <TextView
+                        android:id="@+id/text_luk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Luk"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/majoneza"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Majoneza_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_majoneza"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_majoneza" />
+
+                    <TextView
+                        android:id="@+id/text_majoneza"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Majoneza"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/maslac"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Maslac_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_Maslac"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_maslac" />
+
+                    <TextView
+                        android:id="@+id/text_maslac"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Maslac"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/mlijeko"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Mlijeko_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_mlijeko"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_mlijeko" />
+
+                    <TextView
+                        android:id="@+id/text_mlijeko"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Mlijeko"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/mrkva"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Mrkva_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_mrkva"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_mrkva" />
+
+                    <TextView
+                        android:id="@+id/text_mrkva"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Mrkva"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/paprika"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Paprika_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_paprika"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_paprika" />
+
+                    <TextView
+                        android:id="@+id/text_paprika"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Paprika"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pivo"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Pivo_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_pivo"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_pivo" />
+
+                    <TextView
+                        android:id="@+id/text_pivo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Pivo"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/rajcica"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Rajcica_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_rajcica"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_rajcica" />
+
+                    <TextView
+                        android:id="@+id/text_rajcica"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Rajčica"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/riba"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Riba_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_riba"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_riba" />
+
+                    <TextView
+                        android:id="@+id/text_riba"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Riba"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/riza"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Riza_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_riza"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_riza" />
+
+                    <TextView
+                        android:id="@+id/text_riza"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Riža"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/salata"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Salata_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_salata"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_salata" />
+
+                    <TextView
+                        android:id="@+id/text_salata"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Salata"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/senf"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Senf_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_senf"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_senf" />
+
+                    <TextView
+                        android:id="@+id/text_senf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Senf"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sir"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Sir_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_sir"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_sir" />
+
+                    <TextView
+                        android:id="@+id/text_sir"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Sir"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/spek"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Spek_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_spek"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_spek" />
+
+                    <TextView
+                        android:id="@+id/text_spek"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Slanina"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/svinja"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Svinja_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_svinja"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_svinja" />
+
+                    <TextView
+                        android:id="@+id/text_svinja"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Svinjetina"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tjestenina"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Tjestenina_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_tjestenina"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_tjestenina" />
+
+                    <TextView
+                        android:id="@+id/text_tjestenina"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Tjestenina"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ulje"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Ulje_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_ulje"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_ulje" />
+
+                    <TextView
+                        android:id="@+id/text_ulje"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Ulje"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vino"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Vino_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_vino"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_vino" />
+
+                    <TextView
+                        android:id="@+id/text_vino"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Vino"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vrhnje"
+                    android:layout_width="120dp"
+                    android:layout_height="132dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:onClick="Vrhnje_click"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="17dp">
+
+                    <ImageView
+                        android:id="@+id/slika_vrhnje"
+                        android:layout_width="match_parent"
+                        android:layout_height="101dp"
+                        android:src="@drawable/ic_ikona_vrhnje" />
+
+                    <TextView
+                        android:id="@+id/text_vrhnje"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:text="Vrhnje"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </GridLayout>
+
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
